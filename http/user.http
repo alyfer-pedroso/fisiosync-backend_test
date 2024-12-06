@@ -1,0 +1,14 @@
+// Creating users
+POST http://localhost:3000/create-user HTTP/1,1
+Accept: */*
+Content-Type: application/json
+
+{
+    "email": "sabrina@gmail.com",
+    "password": "afsdfs"
+}
+
+###
+// Getting users
+GET http://localhost:3000/users HTTP/1.1
+Accept: */*
